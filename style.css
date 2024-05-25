@@ -1,0 +1,55 @@
+body {
+    color: #333;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+* {
+    border-radius: 6%;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    margin: 100px 200px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    padding: 2px 20px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(220, 15%, 55%);
+}
+
+img {
+    max-width: 290px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #3e52a3;
+}
